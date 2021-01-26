@@ -1,0 +1,5 @@
+# Local Netlify folder
+.netlify
+
+# Deploy build folder
+public/
