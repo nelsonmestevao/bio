@@ -4,7 +4,7 @@ import SocialIcons from './SocialIcons'
 
 import { social } from '../data/config.yml'
 
-const Layout = ({ meta, children }) => (
+export default ({ meta, children }) => (
     <>
         <Head>
             <meta charSet="utf-8" />
@@ -24,5 +24,3 @@ const Layout = ({ meta, children }) => (
         </div>
     </>
 )
-
-export default Layout

@@ -1,6 +1,6 @@
 import styles from '../styles/SocialIcons.module.css'
 
-const SocialIcons = ({ twitter, linkedin, github, gitlab }) => (
+export default ({ twitter, linkedin, github, gitlab }) => (
   <ul className="social-icons">
     { twitter && <li><a className={styles.twitter} href={`https://twitter.com/${twitter}`} title="Twitter" >Twitter</a></li>}
     { linkedin && <li><a className={styles.linkedin} href={`https://linkedin.com/in/${linkedin}`} title="LinkedIn" >LinkedIn</a></li>}
@@ -9,4 +9,3 @@ const SocialIcons = ({ twitter, linkedin, github, gitlab }) => (
   </ul>
 )
 
-export default SocialIcons
