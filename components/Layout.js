@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import SocialIcons from "./SocialIcons"
+import SocialIcons from './SocialIcons'
 
-import social from '../data/social.json'
+import { social } from '../data/config.yml'
 
 const Layout = ({ meta, children }) => (
     <>
