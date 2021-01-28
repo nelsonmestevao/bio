@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "vercel deploy"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
@@ -15,5 +16,8 @@
     "normalize.css": "^8.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "vercel": "^21.2.1"
   }
 }
