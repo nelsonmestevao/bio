@@ -1,21 +1,21 @@
 .icon {
-    width: 21px;
-    height: 21px;
+  width: 21px;
+  height: 21px;
 }
 
 .twitter {
-    composes: icon;
-    background-image: url(../public/img/icons/twitter.svg);
+  composes: icon;
+  background-image: url(../public/img/icons/twitter.svg);
 }
 .linkedin {
-    composes: icon;
-    background-image: url(../public/img/icons/linkedin.svg);
+  composes: icon;
+  background-image: url(../public/img/icons/linkedin.svg);
 }
 .github {
-    composes: icon;
-    background-image: url(../public/img/icons/github.svg);
+  composes: icon;
+  background-image: url(../public/img/icons/github.svg);
 }
 .gitlab {
-    composes: icon;
-    background-image: url(../public/img/icons/gitlab.svg);
+  composes: icon;
+  background-image: url(../public/img/icons/gitlab.svg);
 }

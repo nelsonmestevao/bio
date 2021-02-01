@@ -1,8 +1,7 @@
-import 'animate.css'
-import 'normalize.css'
-import '../styles/globals.css'
+import "animate.css";
+import "normalize.css";
+import "../styles/globals.css";
 
 export default ({ Component, pageProps }) => {
-  return <Component {...pageProps} />
-}
-
+  return <Component {...pageProps} />;
+};

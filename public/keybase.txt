@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/nelsonmestevao
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://estevao.org
+  * I am nelsonmestevao (https://keybase.io/nelsonmestevao) on keybase.
+  * I have a public key with fingerprint 4B65 658D FBAB E16C 2991  182E 160B 7335 2C4F 1CC7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201958312396fc97ddc6a0e5c4fa2d9e8f2dad05aa69c4f4d7dd8be404f8eb75970a",
+      "fingerprint": "4b65658dfbabe16c2991182e160b73352c4f1cc7",
+      "host": "keybase.io",
+      "key_id": "160b73352c4f1cc7",
+      "kid": "0101f46b95508c57e8151f09a9db6086a3bb7220224d9225cc77806d6cfa03155ce20a",
+      "uid": "172dec15526f8f8da697337babf12c19",
+      "username": "nelsonmestevao"
+    },
+    "service": {
+      "hostname": "estevao.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1597932873,
+  "expire_in": 157680000,
+  "prev": "57128abdd72983380c1930cf09b5050cb108d7fe3554a474601fbdcdf11d617f",
+  "seqno": 82,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNuAnicbVJ7UFRVHF4IaYQEE4aHEUwXmpQBvO/HlsoQMq7hoGROyeJ67z3nLneE
+vcvusoAkg0MWrLO5AzMMZRZhDGTDWAjrDJBkg1DRY0gDCm0Qi8fmTEyg9ODRWcL/
+Ov+cc37n+77f9/vm9G96RBcSEBVqZ1Jy4gYDhq6dL9GZdp02VGCSBsoxfQV2HK5t
+sBBAu8N0XAWYHsMJEicEhqcIkhJYRRY4AGRWxCEj04pIAgHyCglEgDOiyAqoRgOE
+4CVI47TCQ4ljBA4XsRRMUS1maLPaVIsDydISy7AMDxRJlCDByqQgEARPoiMucRTF
+kEiJkGUOEQs0u5+BzEmiHaapGqqhi2nN3v/gH/rGCYVmJYFhcF5mOMgTDKHggigA
+icV5VqQkiSNJnCRpIJAkg7gcj7OAlRURpwiGkSG55rvkvz4cCaCMyiSr8AoP0Kyo
+LYfcKwQpE4IfaIc2i1gEEdoCC+2apQilCJ2ihp1MwdCbU5WhP17/POu4dUCaZjMj
+AatNc2iyVogeChwOq13vJzrKrX5kKZRM6xomSbUAFCZiOKHNrmoWTE8gpOxQ/aIE
+ClygSJ6jUjBYZlVt0KT6EQzH8jha/j7QiSQZjiB5UQKAIwWeongcjUHhMspIYnAG
+lyUC5wGnQIphaJHmaBYFKgEZKAQBWIJTMP9UxRYN0/Mk8imakaZdNVtER4kNYic/
+v2YM0gWE6II3BPp/mS5k4+aHf0/0hK+kRRZLuoyO6OpPVmKXjL7Be0357pduTUe3
+bA009+04tyfrm+urX36fkDuuRMHakcaY8tzRQw1xVdkHQnt6tIHXP3PXfRxRa7yw
+eqqw+FJn1rGljaK39dIfPwytOMOqQepEchOTTo+kjn/9zlMdvdZsl3vSNX+haUPZ
+5a/INvnuYKBh+bG/B/PD94wfzXMaWved3fJ+Wug5uXZRWt4pvvjjc747vuSDn7ry
+Tle9V1Y/d3v7G4aEJ51ZA3VmX8xm/vpi8zYDa7B1Z77rfjXMl+gydW6P6W7Zev5y
+pqFdrnd1pff9Ol8td2c+3nV2x/LhGdr2fN3C4mSWO8Lk9RC7f9+lAF1EfrxjdDrj
+rYjD3Y3NOz3mRG8X3bXA7eWmdHH7Yz/SJx3KK5+YhH+5bWlZIbtzvxh45onU76bG
+xi9m3LhnryzN3tQY9rOutSk4xaRuq/nJG3lQX3om5004H3u0uepE8PSV2mNBzw72
+8xM3waPtY8YtzfUdQZWdnvt7TzS8PGC7XXPAQ2vDr71SVnAq9SI/3Dc5c2fUKFuG
+M+auzsqrs0kVMf8sJ5r/1O7+0th6ZLYxsI2O3+9dqCka810NuzFs//Bt3UzgmPfm
+rX2u+KeFnKWiGQNTMxKf9EJD7xg93FNsfPBb1ANKSTiS0xb5LXW/Mnmo3fPBFW9L
+dO9Uev9cpNVrDJf+BTL9waU=
+=/b5Z
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nelsonmestevao
+
+==================================================================
