@@ -19,6 +19,7 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@next/codemod": "^10.0.6",
     "vercel": "^21.2.1"
   }
 }

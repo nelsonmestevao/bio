@@ -2,6 +2,8 @@ import "animate.css";
 import "normalize.css";
 import "../styles/globals.css";
 
-export default ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }) => {
   return <Component {...pageProps} />;
 };
+
+export default App;
