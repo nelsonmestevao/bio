@@ -23,7 +23,7 @@ dl,
 h1 {
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 h1 {
@@ -83,15 +83,19 @@ a img:hover,
   transition: opacity 0.2s ease;
 }
 
-img {
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 125px;
-}
+/* img { */
+/*   max-width: 200px; */
+/*   max-height: 200px; */
+/*   border-radius: 125px; */
+/* } */
 
 .avatar {
-  float: left;
-  margin: 0 40px 20px 0;
+  /* float: left; */
+  /* margin: 0 40px 20px 0; */
+  /* margin: 300px 0 0; */
+  position: absolute;
+  bottom: 0;
+  right: 10px;
 
   animation: slideInLeft;
   animation-duration: 1s;

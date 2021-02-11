@@ -15,10 +15,10 @@ export default ({ meta, children }) => (
 
     <div className="avatar">
       <Image
-        src="/img/profile.png"
+        src="/img/me.png"
         alt="Nelson Estevão"
-        width="1500"
-        height="1500"
+        width="700"
+        height="700"
       />
     </div>
 
