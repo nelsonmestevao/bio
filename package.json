@@ -6,20 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
+    "fmt": "prettier --write . --ignore-path .gitignore",
     "deploy": "vercel deploy"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
-    "@next/mdx": "^10.0.5",
+    "@next/mdx": "^11.1.0",
     "animate.css": "^4.1.1",
-    "next": "10.0.5",
+    "next": "^11.1.0",
     "next-plugin-yaml": "^1.0.1",
     "normalize.css": "^8.0.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@next/codemod": "^10.0.6",
+    "@next/codemod": "^11.1.0",
+    "@types/react": "^17.0.18",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "prettier": "^2.3.2",
     "vercel": "^21.2.1"
   }
 }

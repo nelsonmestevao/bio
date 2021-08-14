@@ -1,11 +1,11 @@
-const withYaml = require('next-plugin-yaml')
+const withYaml = require('next-plugin-yaml');
 
 const withMDX = require('@next/mdx')({
-    extension: /\.mdx?$/,
-})
+  extension: /\.mdx?$/
+});
 
 module.exports = withYaml(
-    withMDX({
-        pageExtensions: ['js', 'jsx', 'mdx']
-    })
-)
+  withMDX({
+    pageExtensions: ['js', 'jsx', 'mdx']
+  })
+);
