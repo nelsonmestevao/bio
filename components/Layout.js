@@ -15,10 +15,10 @@ const Layout = ({ meta, children }) => (
 
     <div className="avatar">
       <Image
-        src="/img/profile.png"
+        src="/img/profile.jpg"
         alt="Nelson Estevão"
-        width="1500"
-        height="1500"
+        width="500"
+        height="500"
       />
     </div>
 

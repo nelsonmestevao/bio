@@ -97,6 +97,10 @@ img {
   animation-duration: 1s;
 }
 
+.avatar img {
+  border: 4px solid white !important;
+}
+
 .content {
   float: left;
   max-width: 790px;

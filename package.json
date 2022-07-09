@@ -1,6 +1,6 @@
 {
   "name": "bio.estevao.org",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,21 +11,21 @@
     "deploy": "vercel deploy"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.6.22",
-    "@next/mdx": "^11.1.0",
+    "@mdx-js/loader": "^2.1.2",
+    "@next/mdx": "^12.2.2",
     "animate.css": "^4.1.1",
-    "next": "^11.1.0",
+    "next": "^12.2.2",
     "next-plugin-yaml": "^1.0.1",
     "normalize.css": "^8.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@next/codemod": "^11.1.0",
-    "@types/react": "^17.0.18",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0",
-    "prettier": "^2.3.2",
-    "vercel": "^21.2.1"
+    "@next/codemod": "^12.2.2",
+    "@types/react": "^18.0.15",
+    "eslint": "^8.19.0",
+    "eslint-config-next": "^12.2.2",
+    "prettier": "^2.7.1",
+    "vercel": "^27.0.0"
   }
 }

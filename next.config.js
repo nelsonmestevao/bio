@@ -1,7 +1,11 @@
 const withYaml = require('next-plugin-yaml');
 
 const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: []
+  }
 });
 
 module.exports = withYaml(

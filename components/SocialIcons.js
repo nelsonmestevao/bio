@@ -7,7 +7,8 @@ const SocialIcons = ({ social }) => (
         <a
           className={styles[elem.tag]}
           href={`${elem.base_url}/${elem.username}`}
-          title={elem.name}>
+          title={elem.name}
+        >
           {elem.name}
         </a>
       </li>
