@@ -1,7 +1,4 @@
 ---
-export interface Props {}
-
-const {} = Astro.props as Props;
 import SocialIcon, { type SocialIconProps } from "./SocialIcon";
 
 const socials: SocialIconProps[] = [
@@ -12,7 +9,7 @@ const socials: SocialIconProps[] = [
 ];
 ---
 
-<ul class="social-icons">
+<ul>
   {
     socials.map((social) => (
       <li>

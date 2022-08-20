@@ -3,16 +3,11 @@ export interface Props {
   image?: string;
 }
 
-const { image } = Astro.props as Props;
+const { image = "/img/profile.jpg" } = Astro.props as Props;
 ---
 
 <div class="avatar">
-  <img
-    src={image || "/img/profile.jpg"}
-    alt="Nelson Estevão"
-    width="500"
-    height="500"
-  />
+  <img src={image} alt="Nelson Estevão" width="500" height="500" />
 </div>
 <style>
   .avatar {

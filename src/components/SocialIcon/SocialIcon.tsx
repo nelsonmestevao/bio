@@ -22,7 +22,12 @@ const link = (social: SocialNetwork, username: string): string => {
 };
 
 const SocialIcon = ({ tag, username, name }: SocialIconProps): ReactElement => (
-  <a className={styles[tag]} target="_blank" href={link(tag, username)} title={name}>
+  <a
+    className={styles[tag]}
+    target="_blank"
+    href={link(tag, username)}
+    title={name}
+  >
     {name}
   </a>
 );
