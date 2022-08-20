@@ -1,0 +1,35 @@
+---
+export interface Props {}
+
+const {} = Astro.props as Props;
+import SocialIcon, { type SocialIconProps } from "./SocialIcon";
+
+const socials: SocialIconProps[] = [
+  { tag: "github", username: "nelsonmestevao", name: "GitHub" },
+  { tag: "gitlab", username: "nelsonmestevao", name: "GitLab" },
+  { tag: "linkedin", username: "nelsonmestevao", name: "LinkedIn" },
+  { tag: "twitter", username: "nelsonmestevao", name: "Twitter" },
+];
+---
+
+<ul class="social-icons">
+  {
+    socials.map((social) => (
+      <li>
+        <SocialIcon {...social} />
+      </li>
+    ))
+  }
+</ul>
+<style>
+  ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    list-style-type: none;
+  }
+  li {
+    margin-right: 15px;
+    display: inline;
+  }
+</style>

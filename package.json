@@ -3,29 +3,22 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "fmt": "prettier --write . --ignore-path .gitignore",
-    "deploy": "vercel deploy"
-  },
-  "dependencies": {
-    "@mdx-js/loader": "^2.1.2",
-    "@next/mdx": "^12.2.2",
-    "animate.css": "^4.1.1",
-    "next": "^12.2.2",
-    "next-plugin-yaml": "^1.0.1",
-    "normalize.css": "^8.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fmt": "prettier --write . --ignore-path .gitignore"
   },
   "devDependencies": {
-    "@next/codemod": "^12.2.2",
-    "@types/react": "^18.0.15",
-    "eslint": "^8.19.0",
-    "eslint-config-next": "^12.2.2",
+    "@astrojs/mdx": "^0.10.0",
+    "@astrojs/react": "^1.0.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^1.0.6",
     "prettier": "^2.7.1",
-    "vercel": "^27.0.0"
+    "prettier-plugin-astro": "^0.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "social": [
+    {
+      "name": "Twitter",
+      "base_url": "https://twitter.com/",
+      "username": "nelsonmestevao",
+      "tag": "twitter"
+    },
+    {
+      "name": "Linkedin",
+      "base_url": "https://linkedin.com/in/",
+      "username": "nelsonmestevao",
+      "tag": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "base_url": "https://github.com/",
+      "username": "nelsonmestevao",
+      "tag": "github"
+    },
+    {
+      "name": "GitLab",
+      "base_url": "https://gitlab.com/",
+      "username": "nelsonmestevao",
+      "tag": "gitlab"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.text {
+  font-weight: 900;
+  background-image: linear-gradient(90deg, #339999, #95a4a9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position-y: 100%;
+  border-radius: 0.4rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+}
