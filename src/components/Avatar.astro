@@ -1,13 +1,11 @@
 ---
-export interface Props {
-  image?: string;
-}
+import { Image } from "@astrojs/image/components";
 
-const { image = "/img/profile.jpg" } = Astro.props as Props;
+import avatar from "../assets/profile.jpg";
 ---
 
 <div class="avatar">
-  <img src={image} alt="Nelson Estevão" width="500" height="500" />
+  <Image src={avatar} alt="Nelson Estevão" width={500} height={500} />
 </div>
 <style>
   .avatar {

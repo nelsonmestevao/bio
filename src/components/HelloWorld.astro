@@ -1,10 +1,13 @@
 ---
+import { Image } from "@astrojs/image/components";
 import GradientText from "./GradientText";
+
+import wave from "../assets/wave.gif";
 ---
 
 <div class="banner">
   <h1 class="title">Hello, <GradientText>World</GradientText>!</h1>
-  <img src="/img/wave.gif" alt="Waving" width="48" height="48" />
+  <Image class="wave" src={wave} alt="Waving" />
 </div>
 <style>
   .banner {
@@ -24,6 +27,11 @@ import GradientText from "./GradientText";
       cubic-bezier(0.215, 0.61, 0.355, 1) both;
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
     animation-delay: 1.8s;
+  }
+
+  .wave {
+    width: 48px;
+    height: 48px;
   }
 
   @media (max-width: 640px) {
