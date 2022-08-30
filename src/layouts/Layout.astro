@@ -1,5 +1,6 @@
 ---
 import Avatar from "../components/Avatar.astro";
+import GradienteLine from "../components/GradienteLine.astro";
 export interface Props {
   title?: string;
   lang?: string;
@@ -20,6 +21,7 @@ const { title = "Hello", lang = "en" } =
   </head>
 
   <body>
+    <GradienteLine />
     <div class="container">
       <Avatar />
 

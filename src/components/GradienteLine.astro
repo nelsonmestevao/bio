@@ -1,0 +1,24 @@
+---
+---
+
+<div></div>
+<style>
+  div {
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(90deg, #339999, #95a4a9);
+    background-size: 200% 100%;
+    background-position-y: 100%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%,
+    100% {
+      background-position-x: 0%;
+    }
+    50% {
+      background-position-x: 100%;
+    }
+  }
+</style>
