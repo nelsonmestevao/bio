@@ -1,6 +1,9 @@
 ---
 import Avatar from "../components/Avatar.astro";
 import GradienteLine from "../components/GradienteLine.astro";
+
+import "../styles/global.css";
+
 export interface Props {
   title?: string;
   lang?: string;
@@ -37,8 +40,8 @@ const { title = "Hello", lang = "en" } =
         line-height: 28px;
         margin: 0;
         padding: 0;
-        background-color: #f6f9f9;
-        color: #444449;
+        background-color: var(--background-color);
+        color: var(--main-text-color);
       }
 
       .container {
@@ -116,12 +119,12 @@ const { title = "Hello", lang = "en" } =
       }
 
       :global(a) {
-        color: #999;
+        color: var(--secondary-text-color);
         text-decoration: underline;
       }
 
       :global(a:hover, a:focus) {
-        color: #339999;
+        color: var(--accent-color);
         -webkit-transition: color 0.2s ease;
         -moz-transition: color 0.2s ease;
         -o-transition: color 0.2s ease;
@@ -130,12 +133,12 @@ const { title = "Hello", lang = "en" } =
       }
 
       :global(strong) {
-        color: #339999;
+        color: var(--accent-color);
         font-weight: bold;
       }
 
       :global(strong a) {
-        color: #339999;
+        color: var(--accent-color);
         font-weight: bold;
       }
     </style>
