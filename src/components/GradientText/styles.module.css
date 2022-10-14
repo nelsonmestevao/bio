@@ -1,6 +1,10 @@
 .text {
   font-weight: 900;
-  background-image: linear-gradient(90deg, var(--accent-color), var(--secondary-color));
+  background-image: linear-gradient(
+    90deg,
+    var(--accent-color),
+    var(--secondary-color)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
