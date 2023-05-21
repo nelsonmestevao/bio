@@ -7,7 +7,13 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [image(), mdx(), react()],
+  integrations: [
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+    mdx(),
+    react(),
+  ],
   sitemap: true,
   outDir: "public",
   publicDir: "static",
