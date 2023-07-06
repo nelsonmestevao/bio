@@ -16,8 +16,6 @@
     // Error when a value import is only used as a type.
     "verbatimModuleSyntax": true,
     // Replace `astro/client` with `@astrojs/image/client`
-    "types": [
-      "@astrojs/image/client"
-    ]
+    "types": ["@astrojs/image/client"]
   }
 }
