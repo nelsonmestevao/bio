@@ -17,20 +17,20 @@
 
 .twitter {
   composes: icon;
-  background-image: url(/img/icons/twitter.svg);
+  background-image: url(/imgs/icons/twitter.svg);
 }
 
 .linkedin {
   composes: icon;
-  background-image: url(/img/icons/linkedin.svg);
+  background-image: url(/imgs/icons/linkedin.svg);
 }
 
 .github {
   composes: icon;
-  background-image: url(/img/icons/github.svg);
+  background-image: url(/imgs/icons/github.svg);
 }
 
 .gitlab {
   composes: icon;
-  background-image: url(/img/icons/gitlab.svg);
+  background-image: url(/imgs/icons/gitlab.svg);
 }
