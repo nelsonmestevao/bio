@@ -20,6 +20,7 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
+    "feather-icons": "^4.29.1",
     "sharp": "0.33.2"
   }
 }

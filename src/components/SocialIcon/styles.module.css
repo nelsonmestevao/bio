@@ -1,36 +1,23 @@
 .icon {
-  width: 21px;
-  height: 21px;
-  display: inline-block;
-  text-indent: -9999px;
+  /* color: black; */
+  color: var(--main-text-color);
 }
 
 .icon:hover {
-  filter: alpha(opacity=85);
-  opacity: 0.85;
-  -webkit-transition: opacity 0.2s ease;
-  -moz-transition: opacity 0.2s ease;
-  -o-transition: opacity 0.2s ease;
-  -ms-transition: opacity 0.2s ease;
-  transition: opacity 0.2s ease;
+  color: var(--accent-color);
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 
-.twitter {
-  composes: icon;
-  background-image: url(/imgs/icons/twitter.svg);
-}
-
-.linkedin {
-  composes: icon;
-  background-image: url(/imgs/icons/linkedin.svg);
-}
-
-.github {
-  composes: icon;
-  background-image: url(/imgs/icons/github.svg);
-}
-
-.gitlab {
-  composes: icon;
-  background-image: url(/imgs/icons/gitlab.svg);
+.feather {
+  width: 21px;
+  height: 21px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }

@@ -125,7 +125,7 @@ const { title = "Hello", lang = "en" } =
       }
 
       :global(a:hover, a:focus) {
-        color: var(--secondary-text-color);
+        color: var(--main-text-color);
         text-decoration: solid underline;
       }
 
@@ -136,16 +136,14 @@ const { title = "Hello", lang = "en" } =
 
       :global(strong a) {
         color: var(--accent-color);
-        font-weight: bold;
-        -webkit-text-decoration: solid underline;
         text-decoration: solid underline;
+        -webkit-text-decoration: solid underline;
         -webkit-text-decoration-skip: ink;
         text-decoration-skip: ink;
       }
 
-      :global(strong a:hover, storng a:focus) {
+      :global(strong a:hover, strong a:focus) {
         color: var(--accent-color);
-        text-decoration: solid underline;
       }
     </style>
   </body>

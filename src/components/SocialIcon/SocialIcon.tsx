@@ -23,12 +23,14 @@ const link = (social: SocialNetwork, username: string): string => {
 
 const SocialIcon = ({ tag, username, name }: SocialIconProps): ReactElement => (
   <a
-    className={styles[tag]}
+    className={styles.icon}
     target="_blank"
     href={link(tag, username)}
     title={name}
   >
-    {name}
+    <svg className={styles.feather}>
+      <use href={`node_modules/feather-icons/dist/feather-sprite.svg#${tag}`} />
+    </svg>
   </a>
 );
 
