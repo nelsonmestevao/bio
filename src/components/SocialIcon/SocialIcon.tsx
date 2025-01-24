@@ -1,4 +1,5 @@
-import type { ReactElement } from "react";
+import { cloneElement, type ReactElement } from "react";
+import { GitHub, Gitlab, Linkedin, Twitter } from "react-feather";
 
 import styles from "./styles.module.css";
 
@@ -11,7 +12,7 @@ export interface SocialIconProps {
 }
 
 const link = (social: SocialNetwork, username: string): string => {
-  const urls = {
+  const urls: Record<SocialNetwork, string> = {
     github: "https://github.com",
     gitlab: "https://gitlab.com",
     linkedin: "https://linkedin.com/in",
@@ -21,17 +22,26 @@ const link = (social: SocialNetwork, username: string): string => {
   return `${urls[social]}/${username}`;
 };
 
-const SocialIcon = ({ tag, username, name }: SocialIconProps): ReactElement => (
-  <a
-    className={styles.icon}
-    target="_blank"
-    href={link(tag, username)}
-    title={name}
-  >
-    <svg className={styles.feather}>
-      <use href={`node_modules/feather-icons/dist/feather-sprite.svg#${tag}`} />
-    </svg>
-  </a>
-);
+const SocialIcon = ({ tag, username, name }: SocialIconProps): ReactElement => {
+  const icons: Record<SocialNetwork, ReactElement> = {
+    github: <GitHub />,
+    gitlab: <Gitlab />,
+    linkedin: <Linkedin />,
+    twitter: <Twitter />,
+  };
+
+  return (
+    <a
+      className={styles.icon}
+      target="_blank"
+      rel="noopener noreferrer"
+      href={link(tag, username)}
+      aria-label={`${username} on ${name}`}
+      title={name}
+    >
+      {cloneElement(icons[tag], { className: styles.feather })}
+    </a>
+  );
+};
 
 export default SocialIcon;
